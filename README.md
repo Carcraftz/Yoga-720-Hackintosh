@@ -10,6 +10,7 @@ i7 7500U
 4K Display
 
 Pull requests are encouraged!
+
 ![Proof](https://cdn.discordapp.com/attachments/694281749198274590/694567212698173471/unknown.png)
 Working:
 Wifi/Bluetooth (after replacing stock wifi card with a DW1560)
