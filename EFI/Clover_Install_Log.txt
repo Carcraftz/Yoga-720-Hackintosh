@@ -1,0 +1,56 @@
+
+Clover EFI installer log - Fri Sep 27 22:28:03 EDT 2019
+Installer version: v2.5k r5091 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *275.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         149.6 GB   disk0s2
+   3:           Windows Recovery                         314.6 MB   disk0s3
+   4:                        EFI NO NAME                 104.9 MB   disk0s4
+   5:           Windows Recovery                         314.6 MB   disk0s5
+   6:                        EFI NO NAME                 104.9 MB   disk0s6
+   7:       Microsoft Basic Data                         122.8 GB   disk0s7
+   8:         Microsoft Reserved                         16.8 MB    disk0s8
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +149.6 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume mojave bro!             125.1 GB   disk1s1
+   2:                APFS Volume Preboot                 45.2 MB    disk1s2
+   3:                APFS Volume Recovery                509.7 MB   disk1s3
+   4:                APFS Volume VM                      5.4 GB     disk1s4
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Bulk Storage            500.0 GB   disk2s2
+   3:       Microsoft Basic Data Windows Storage         346.0 GB   disk2s3
+   4:           Windows Recovery                         314.6 MB   disk2s4
+   5:                        EFI NO NAME                 104.9 MB   disk2s5
+   6:         Microsoft Reserved                         134.2 MB   disk2s6
+   7:       Microsoft Basic Data                         153.4 GB   disk2s7
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *31.5 GB    disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Mojave    31.1 GB    disk3s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Mojave
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Mojave
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

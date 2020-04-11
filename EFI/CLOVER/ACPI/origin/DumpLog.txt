@@ -1,0 +1,80 @@
+9:185  7:474  Found UEFI Acpi 2.0 RSDP at 3AFFE014
+9:185  0:000  Saving ACPI tables from RSDP 3AFFE014 to EFI\CLOVER\ACPI\origin ...
+9:185  0:000   3AFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+9:195  0:010    (Xsdt: 3AFC6188, Rsdt: 3AFC60C4)
+9:195  0:000    3AFC6188: 'XSDT', 'CB-01', Rev: 1, Len: 268 -> XSDT.aml
+9:199  0:003    3AFC60C4: 'RSDT', 'CB-01', Rev: 1, Len: 152 -> RSDT.aml
+9:202  0:003    Tables in Xsdt: 29
+9:202  0:000    0. 3AFEE000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+9:207  0:004        (Dsdt: 3AFCD000, Facs: 3AF33000, XDsdt: 3AFCD000, XFacs: 0)
+9:207  0:000        3AFCD000: 'DSDT', 'CB-01', Rev: 2, Len: 116771 -> DSDT.aml
+9:225  0:018        3AF33000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+9:234  0:009    1. 3AFFD000: 'UEFI', 'CB-01', Rev: 1, Len: 566 -> UEFI.aml
+9:241  0:006    2. 3AFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 66 -> UEFI.aml
+9:246  0:005    3. 3AFFB000: 'MSDM', 'CB-01', Rev: 3, Len: 85 -> MSDM.aml
+9:249  0:003    4. 3AFF7000: 'SSDT', 'CB-01', Rev: 2, Len: 12547 -> SSDT-0-CB-01.aml
+9:253  0:003    5. 3AFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 16269 -> SSDT-1-CB-01.aml
+9:256  0:003    6. 3AFF2000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+9:260  0:003    7. 3AFF1000: 'ASPT', 'CB-01', Rev: 7, Len: 52 -> ASPT.aml
+9:263  0:003    8. 3AFF0000: 'BOOT', 'CB-01', Rev: 1, Len: 40 -> BOOT.aml
+9:267  0:003    9. 3AFEF000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+9:270  0:003    10. 3AFED000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+9:273  0:003    11. 3AFEC000: 'APIC', 'CB-01', Rev: 3, Len: 188 -> APIC.aml
+9:276  0:003    12. 3AFEB000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+9:280  0:003    13. 3AFEA000: 'SLIC', 'CB-01', Rev: 1, Len: 374 -> SLIC.aml
+9:283  0:003    14. 3AFCC000: 'SSDT', 'CB-01', Rev: 2, Len: 520 -> SSDT-2-CB-01.aml
+9:286  0:003    15. 3AFCB000: 'SSDT', 'CB-01', Rev: 2, Len: 2860 -> SSDT-3-CB-01.aml
+9:290  0:003    16. 3AFCA000: 'LPIT', 'CB-01', Rev: 1, Len: 148 -> LPIT.aml
+9:293  0:003    17. 3AFC9000: 'WSMT', 'CB-01', Rev: 1, Len: 40 -> WSMT.aml
+9:296  0:003    18. 3AFC8000: 'SSDT', 'CB-01', Rev: 2, Len: 671 -> SSDT-4-CB-01.aml
+9:300  0:003    19. 3AFC7000: 'SSDT', 'CB-01', Rev: 1, Len: 838 -> SSDT-5-CB-01.aml
+9:303  0:003    20. 3AFC2000: 'SSDT', 'CB-01', Rev: 2, Len: 12290 -> SSDT-6-CB-01.aml
+9:307  0:003    21. 3AFC1000: 'SSDT', 'CB-01', Rev: 2, Len: 1310 -> SSDT-7-CB-01.aml
+9:310  0:003    22. 3AFC0000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+9:315  0:005    23. 3AFBF000: 'DBG2', 'CB-01', Rev: 0, Len: 97 -> DBG2.aml
+9:318  0:003    24. 3AFBD000: 'SSDT', 'CB-01', Rev: 2, Len: 4387 -> SSDT-8-CB-01.aml
+9:322  0:003    25. 3AFBC000: 'SSDT', 'CB-01', Rev: 2, Len: 3806 -> SSDT-9-CB-01.aml (Found hidden SSDT 7 pcs)
+9:326  0:003        * 38E3D018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1782  53 53 44 54 F6 06 00 00 02 A6 50 6D 52 65 66 00 Internal length = 1782 -> SSDT-x9_0-Cpu0Ist.aml
+9:329  0:003        * 38E3C018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x9_1-ApIst.aml
+9:333  0:003        * 38E3C898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x9_2-Cpu0Cst.aml
+9:336  0:003        * 38E3CDD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x9_3-ApCst.aml
+9:339  0:003        * 294BFDD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x9_4-Cpu0Hwp.aml
+9:343  0:003        * 294CC618: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x9_5-ApHwp.aml
+9:346  0:003        * 294C0DD8: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x9_6-HwpLvt.aml
+9:350  0:003  
+9:350  0:000    26. 3AFBB000: 'DMAR', 'CB-01', Rev: 1, Len: 312 -> DMAR.aml
+9:353  0:003    27. 3AFBA000: 'FPDT', 'CB-01', Rev: 1, Len: 68 -> FPDT.aml
+9:357  0:003    28. 3AFB9000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+9:360  0:003    Tables in Rsdt: 29
+9:360  0:000    0. 3AFEE000: 'FACP', 'CB-01', Rev: 5, Len: 268
+9:360  0:000        (Dsdt: 3AFCD000, Facs: 3AF33000, XDsdt: 3AFCD000, XFacs: 0)
+9:360  0:000        3AFCD000: 'DSDT', 'CB-01', Rev: 2, Len: 116771
+9:361  0:001        3AF33000: 'FACS', Ver: 2, Len: 64
+9:361  0:000    1. 3AFFD000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+9:361  0:000    2. 3AFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+9:361  0:000    3. 3AFFB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+9:361  0:000    4. 3AFF7000: 'SSDT', 'CB-01', Rev: 2, Len: 12547
+9:361  0:000    5. 3AFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 16269
+9:361  0:000    6. 3AFF2000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+9:361  0:000    7. 3AFF1000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+9:361  0:000    8. 3AFF0000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+9:361  0:000    9. 3AFEF000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+9:361  0:000    10. 3AFED000: 'HPET', 'CB-01', Rev: 1, Len: 56
+9:361  0:000    11. 3AFEC000: 'APIC', 'CB-01', Rev: 3, Len: 188
+9:361  0:000    12. 3AFEB000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+9:361  0:000    13. 3AFEA000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+9:361  0:000    14. 3AFCC000: 'SSDT', 'CB-01', Rev: 2, Len: 520
+9:362  0:000    15. 3AFCB000: 'SSDT', 'CB-01', Rev: 2, Len: 2860
+9:362  0:000    16. 3AFCA000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+9:362  0:000    17. 3AFC9000: 'WSMT', 'CB-01', Rev: 1, Len: 40
+9:362  0:000    18. 3AFC8000: 'SSDT', 'CB-01', Rev: 2, Len: 671
+9:362  0:000    19. 3AFC7000: 'SSDT', 'CB-01', Rev: 1, Len: 838
+9:362  0:000    20. 3AFC2000: 'SSDT', 'CB-01', Rev: 2, Len: 12290
+9:362  0:000    21. 3AFC1000: 'SSDT', 'CB-01', Rev: 2, Len: 1310
+9:362  0:000    22. 3AFC0000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+9:362  0:000    23. 3AFBF000: 'DBG2', 'CB-01', Rev: 0, Len: 97
+9:362  0:000    24. 3AFBD000: 'SSDT', 'CB-01', Rev: 2, Len: 4387
+9:362  0:000    25. 3AFBC000: 'SSDT', 'CB-01', Rev: 2, Len: 3806
+9:362  0:000    26. 3AFBB000: 'DMAR', 'CB-01', Rev: 1, Len: 312
+9:362  0:000    27. 3AFBA000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+9:362  0:000    28. 3AFB9000: 'BGRT', 'CB-01', Rev: 1, Len: 56
