@@ -40,7 +40,7 @@ Thunderbolt Port
 
 Fingerprint reader
 
-Native Wifi/Bluetooth with the stock intel chip. You need to replace it with a DW1560. Follow this guide: 
+Native Wifi/Bluetooth with the stock intel chip. You need to replace it with a DW1560(What i'm using) or a DW1830. Follow this guide: 
 https://www.ifixit.com/Guide/Lenovo+Yoga+720+Wireless+Adapter+Replacement/102473
 
 
