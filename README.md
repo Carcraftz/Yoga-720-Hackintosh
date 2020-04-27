@@ -48,6 +48,6 @@ Note: Replace Serial Number and Board Serial Number under SMBIOS, and MLB under 
 ![example](https://cdn.discordapp.com/attachments/694281749198274590/694564651144314960/unknown.png)
 
 
-Update: I was previously on a -100 -100 -100 CPU Undervolt w/ throttlestop. However, I was having some issues with final cut export and tensorflow. I narrowed the issue down to the Undervolt. I'm currently on a -50 -50 -50 and my system is currently stable when performing these tasks. I may have to do a little bit of testing to determine a stable undervolt for my system.
+Update: I was previously on a -100 -100 -100 CPU Undervolt w/ throttlestop. However, I was having some issues with final cut export and tensorflow. I narrowed the issue down to the Undervolt. I'm currently on a -50 -50 -50 and my system is currently stable when performing these tasks. I may have to do a little bit of testing to determine the maximum stable undervolt for my system.
 
 ADDITIONALLY: When I update this guide for the next macOS (the one after Catalina b/c I don't think Catalina is stable enough in general for me to update), I will likely move over from Clover to Opencore, now that laptops seem to have more support. This guide is currently for Mojave.
